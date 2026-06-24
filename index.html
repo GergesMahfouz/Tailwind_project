@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Marketing</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style/all.css">
 </head>
 <body>
     <header>
-        <div class="shadow-xl shadow-black-300 flex flex items-center justify-between transition-all   sm:justify-around lg:justify-center  px-4  h-25  md:h-25 lg:h-18 xl:justify-evenly">
+        <div class="fixed top-0 left-0 w-full shadow-xl shadow-black-300  flex items-center justify-between transition-all duration-300 bg-white  sm:justify-around lg:justify-center  px-4  h-25  md:h-25 lg:h-18 xl:justify-evenly">
             <div class="flex items-center ">
                 <h2 class="text-[30px]  font-bold text-blue-600 mr-2">DigitalPro</h2>
                 <p class="bg-blue-100  rounded-full  text-blue-600 text-[14px]  text-center w-32 h-6 md:w-20 md:h-10 lg:w-32 lg:h-6">Marketing Agency</p>
@@ -23,5 +24,44 @@
             <button class="text-white bg-blue-600 md:h-15 md:w-36 lg:w-45 lg:h-10  w-45  h-15 text-lg font-normal rounded-xl hover:bg-blue-700 transition-all hover:shadow-black-500 hover:shadow-2xl ">Get a consultation</button>
         </div>
     </header>
+    <main>
+        <div class="h-screen bg-gray-200 mt-25 md:mt-25 lg:mt-18 pt-15  flex justify-evenly">
+            <div class="flex flex-col flex-wrap transition-all duration-300 px-4  md:w-190 lg:pt-10 lg:w-130 xl:w-160 xl:mt-30">
+                <h2 class="text-4xl font-bold min-w-110   max-w-150 md:text-6xl md:max-w-185 lg:w-100 xl:w-full">We Create <span class="text-blue-600">Digital Success</span> for Your Brand</h2>
+                <p class="my-8 text-xl text-gray-600 min-w-110 max-w-150 lg:w-120 md:max-w-180 xl:w-full">We provide integrated marketing solutions that help your company grow and increase sales through innovative strategies.</p>
+                <div class="flex flex-wrap pr-3">
+                    <div>
+                        <i class="fa-solid fa-check w-7 h-7 inline-block bg-green-500 rounded-full text-center pt-2 text-white"></i>
+                        <span class="mb-4 inline-block">10+ Years Experience</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-check w-7 h-7 inline-block bg-green-500 rounded-full text-center pt-2 text-white ml-4"></i>
+                        <span class="mr-4">+500 Clients</span>
+                    </div>
+                    <div class="mb-4">
+                        <i class="fa-solid fa-check w-7 h-7 inline-block bg-green-500 rounded-full text-center pt-2 text-white"></i>
+                        <span>Professional Team</span>
+                    </div>
+                </div>
+                
+                <div class="flex flex-wrap pr-[36px]">
+                    <button class="w-60 h-15 bg-blue-600 text-white rounded-xl text-xl capitalize transition-all duration-300 shadow-black-300 mt-5 mr-5 hover:bg-blue-700 hover:shadow-2xl">start your journey now</button>
+                    <button class=" w-50 h-15 border border-gray-400 rounded-xl text-xl capitalize transition-all duration-300 mt-5  hover:text-blue-600 hover:border-blue-600"><i class="fa-solid fa-play"></i> watch the video</button>
+                </div>
+            </div>
+            <div class="w-150 h-100 hidden bg-gradient-to-br from-blue-400 to-purple-400 rounded-2xl mt-8 relative shadow-2xl shadow-black-500 mr-5 lg:block lg:w-110 lg:mt-30 lg:h-90 xl:w-150 xl:mt-50">
+                <div class="w-20 h-20 rounded-full ml-120 lg:ml-85 lg:mt-5 mt-10 bg-gradient-to-br from-blue-300 to-purple-300 "></div>
+                <i class="fa-solid fa-chart-line absolute text-9xl text-purple-200 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] "></i>
+                <div class="w-30 h-30 rounded-full ml-10 mt-25 bg-gradient-to-br from-blue-300 to-purple-300"></div>
+                <div class="w-40 h-20 bg-white absolute left-[-30px] bottom-[-30px] rounded-2xl flex justify-evenly items-center">
+                    <i class="fa-solid fa-users w-10 h-10 bg-green-300 rounded-full text-center pt-3 text-green-900"></i>
+                    <div>
+                        <p class="text-gray-400">Happy Clients</p>
+                        <h3 class="text-2xl ml-3 font-bold">+500</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
